@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* landing page section */
+.landing-page {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.name {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
