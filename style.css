@@ -88,24 +88,22 @@ body {
 /* main section mettings */
 .company-profile {
     display: flex;
-    width: 1270px;
-    padding-top: 80px;
-    padding-left: 300px;
+    padding-bottom: 130px;
 }
 
 .activities {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
-    width: 342px;
-    height: 342px;
+    padding-top: 85px;
+    padding-left: 300px;
 }
 
 .company-features {
     width: 538px;
     height: 323px;
-    margin-left: 450px;
-    margin-top: 250px;
+    padding-top: 255px;
+    padding-left: 85px;
 }
 
 .quick-list {
@@ -129,4 +127,176 @@ body {
 
 #color {
     color: #FF900E;
+}
+
+/* experience section */
+.experience {
+    margin-left: 266px;
+    margin-right: 266px;
+    display: flex;
+    margin-top: 130px;
+}
+
+.experience-heading {
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 21px;
+    padding-bottom: 24px;
+}
+
+.experience-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 30px;
+}
+
+.experience-left {
+    width: 586px;
+    padding-top: 50px
+}
+
+.experience-right {
+    width: 50%;
+}
+
+.techs {
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-style: none;
+    box-shadow: 0px 4px 40px rgba(185, 183, 183, 0.15);
+}
+
+.techs h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+.techs p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.experience-right img {
+    width: 700px;
+    height: 980px;
+    padding-left: 146px;
+
+}
+
+
+
+.experience-button {
+    color: white;
+    background-color: #FF900E;
+    width: 345px;
+    height: 200px;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+#exp {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* statistics section */
+
+.statistics {
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+
+.statistics h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.statistics p {
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.reports {
+    margin-left: 290px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 125px;
+    margin-bottom: 180px;
+}
+
+.report {
+    width: 240px;
+    height: 180px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 8px;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242
+}
+
+.text-report {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* sponsors styling */
+.sponsors-info {
+    margin-left: 797px;
+    margin-right: 797px;
+    text-align: center;
+}
+
+.sponsor-head {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 24px;
+}
+
+.details {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 50px;
+}
+
+.sponsors-image {
+    margin-left: 240px;
+
+}
+
+.sponsors-image img {
+    padding-left: 155px;
+    margin-bottom: 130px;
+}
+
+/* footer styling */
+.footer {
+    background-color: #FFF4E7;
+    width: 960px;
+    height: 60px;
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: center;
+    padding: 40px 410px;
+    margin-bottom: 410px;
 }
