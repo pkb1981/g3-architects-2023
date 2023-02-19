@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -13,4 +18,70 @@ body {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    color: #424242;
+}
+
+.list {
+    padding-left: 50px;
+}
+
+/* landing page mid section */
+.landing-mid {
+    text-align: center;
+    padding: 50px 200px;
+    width: 800px;
+}
+
+.mid-section {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.section-button {
+    align-items: center;
+    color: white;
+    background-color: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner-image {
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+}
+
+.banner-image img {
+    width: 100%;
+    border-radius: 8px;
 }
