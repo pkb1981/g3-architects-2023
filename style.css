@@ -12,6 +12,9 @@ body {
 /* landing page section */
 .landing-page {
     background-color: rgba(255, 144, 14, 0.1);
+    width: 1900px;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 .name {
@@ -24,8 +27,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 100px;
-    padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -45,7 +46,7 @@ body {
 /* landing page mid section */
 .landing-mid {
     text-align: center;
-    padding: 50px 200px;
+    padding: 50px 550px;
     width: 800px;
 }
 
@@ -76,12 +77,56 @@ body {
 }
 
 .banner-image {
-    padding-left: 100px;
-    padding-right: 100px;
     justify-content: center;
 }
 
 .banner-image img {
     width: 100%;
     border-radius: 8px;
+}
+
+/* main section mettings */
+.company-profile {
+    display: flex;
+    width: 1270px;
+    padding-top: 80px;
+    padding-left: 300px;
+}
+
+.activities {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    width: 342px;
+    height: 342px;
+}
+
+.company-features {
+    width: 538px;
+    height: 323px;
+    margin-left: 450px;
+    margin-top: 250px;
+}
+
+.quick-list {
+    font-size: 45px;
+}
+
+.list-text {
+    color: #727272;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#dark {
+    color: #131313;
+}
+
+#gray {
+    color: #727272;
+}
+
+#color {
+    color: #FF900E;
 }
