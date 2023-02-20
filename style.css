@@ -246,6 +246,12 @@ body {
     border-radius: 8px;
 }
 
+.report:hover {
+    width: 240px;
+    height: 180px;
+    transform: rotate(180deg)
+}
+
 .number {
     font-weight: 600;
     font-size: 45px;
