@@ -142,6 +142,9 @@ body {
     font-size: 45px;
     padding-left: 21px;
     padding-bottom: 24px;
+    border-left-style: solid;
+    border-left-color: #FF900E;
+    border-left-width: 5px;
 }
 
 .experience-text {
@@ -287,7 +290,8 @@ body {
 
 .sponsors-image {
     margin-left: 240px;
-
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
 .sponsors-image img {
