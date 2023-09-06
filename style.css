@@ -5,6 +5,7 @@
 /* common styling */
 * {
     font-family: 'Work Sans', sans-serif;
+
 }
 
 .text-light-grey {
@@ -204,6 +205,18 @@ main {
 
 .sponsors-image-container img {
     width: 165px;
+}
+
+/* footer section styling */
+footer {
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 20px 0;
+    margin: 50px 240px;
+}
+
+footer h4 {
+    text-align: center;
 }
 
 /* responsive media query for small devices */
